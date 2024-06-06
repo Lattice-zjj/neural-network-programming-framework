@@ -1,0 +1,5 @@
+# Ignore Python bytecode directories
+**/__pycache__/
+
+# Ignore pytest cache directories
+**/.pytest_cache/
