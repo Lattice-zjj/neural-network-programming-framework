@@ -13,7 +13,7 @@ np.random.seed(0)
 def ResidualBlock(dim, hidden_dim, norm=nn.BatchNorm1d, drop_prob=0.1):
     
     main_path = nn.Sequential(nn.Linear(dim, hidden_dim), norm(hidden_dim), nn.ReLU(), 
-                              nn.Dropout(drop_prob), nn.Linear(hidden_dim, dim), norm(dim))
+                            nn.Dropout(drop_prob), nn.Linear(hidden_dim, dim), norm(dim))
     res = nn.Residual(main_path)
     return nn.Sequential(res, nn.ReLU())
     
