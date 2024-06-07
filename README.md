@@ -1,4 +1,4 @@
-### neural-network-programming-framework without using other frameworks
+# (NNWF) *N*eural-*N*etwork-programming-framework *W*ithout using other *F*rameworks
 
 #### Usage
 
